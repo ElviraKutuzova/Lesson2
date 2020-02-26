@@ -17,6 +17,7 @@ public class Converting {
         proverLength(a.length);
         }catch (MyArraySizeException e){
             System.out.println("Массив слишком велик!");
+
         }
         System.out.println("Преобразованный массив: ");
         try {
