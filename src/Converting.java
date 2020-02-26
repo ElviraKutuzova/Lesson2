@@ -17,12 +17,13 @@ public class Converting {
         proverLength(a.length);
         }catch (MyArraySizeException e){
             System.out.println("Массив слишком велик!");
+
         }
         System.out.println("Преобразованный массив: ");
         try {
             accept(a);
         }catch (MyArrayDataException e){
-            System.out.println("Элемент массива не возможно преобразовать в числовое значение!");
+            System.out.println("Элемент массива невозможно преобразовать в числовое значение!");
         }
     }
 
