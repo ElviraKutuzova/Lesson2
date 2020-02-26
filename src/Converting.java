@@ -23,7 +23,7 @@ public class Converting {
         try {
             accept(a);
         }catch (MyArrayDataException e){
-            System.out.println("Элемент массива не возможно преобразовать в числовое значение!");
+            System.out.println("Элемент массива невозможно преобразовать в числовое значение!");
         }
     }
 
