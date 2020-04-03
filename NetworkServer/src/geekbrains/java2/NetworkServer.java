@@ -17,6 +17,7 @@ public class NetworkServer {
     private final List<ClientHandler> clients = new CopyOnWriteArrayList<>();
     private final AuthService authService;
 
+
     public NetworkServer(int port) {
         this.port = port;
         this.authService = new BaseAuthService();
